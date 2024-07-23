@@ -1,0 +1,25 @@
+@font-face {
+    font-family: kumbh-sans;
+    src: url(../fonts/KumbhSans-Regular.woff);
+  }
+@font-face {
+    font-family: collectivo-serif;
+    src: url(../fonts/Collectivo\ Serif.woff);
+  }
+
+
+body{
+    font-family: kumbh-sans !important; 
+}
+.collectivo-serif{
+    font-family: collectivo-serif !important; 
+}
+.header-logo img{
+    position: absolute;
+    top: 20px;
+    mix-blend-mode: difference;
+    width: 5%;
+    right: 3%;
+    height: auto;
+    margin: auto;
+}
